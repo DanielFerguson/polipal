@@ -7,7 +7,7 @@ function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
-    Fathom.load("FIKFRPPA", {
+    Fathom.load("SIGTAFDY", {
       includedDomains: ["polipal.app", "www.polipal.app"],
     });
 
